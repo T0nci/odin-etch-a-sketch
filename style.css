@@ -23,10 +23,6 @@ h1 {
     flex-wrap: wrap;
 }
 
-.black {
-    background-color: black;
-}
-
 .container {
     display: flex;
     flex-direction: column;
@@ -38,5 +34,16 @@ h1 {
 }
 
 #change-size {
+    padding: 8px 16px;
+}
+
+.extra-credit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.extra-credit > button {
     padding: 8px 16px;
 }
